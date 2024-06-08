@@ -56,15 +56,18 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Bonjour, je m'appelle Michal.</span> Je suis
-        un <span className="font-bold">développeur front-end</span> avec{" "}
-        <span className="font-bold">2 ans et demi</span> d'expérience. J'aime
-        créer des<span className="italic"> sites</span>. Mon objectif est{" "}
-        <span className="underline">React (Next.js)</span>.
+        Bonjour, je suis
+        <span className="font-bold"> Michal</span>.
+        <span className="font-bold block font-mono text-2xl sm:text-4xl uppercase">
+          développeur front-end
+        </span>
+        J'aime créer des{" "}
+        <span className="italic"> produits solides et évolutifs </span>
+        avec une excellente expérience utilisateur.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -82,7 +85,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Me contacter{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -97,7 +100,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/michal-puczek/"
           target="_blank"
         >
           <BsLinkedin />
@@ -105,7 +108,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/MichalPuczek"
           target="_blank"
         >
           <FaGithubSquare />

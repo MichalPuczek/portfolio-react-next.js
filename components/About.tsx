@@ -8,7 +8,7 @@ import SectionHeading from "./SectionHeading";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Qui suis-je");
 
   return (
     <motion.section
@@ -21,31 +21,29 @@ export default function About() {
       }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Qui suis-je</SectionHeading>
       <p>
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Après m'être découvert une passion pour la programmation, j’ai décidé de
+        me plonger dans ce nouveau monde et de me reconvertir. Après 5 mois
+        d’une formation très intensive{" "}
+        <span className="font-medium">full-stack web development</span> à{" "}
+        <span className="font-medium">o'Clock</span>, une école labellisée
+        Grande Ecole du Numérique et la réalisation de quelques premiers
+        projets, j'ai obtenu mon premier post dans une start-up innovante. Après
+        presque trois ans de travail en tant que
+        <span className="font-medium">développeur front Vue.js</span>, j'ai
+        décidé de changer de cap et rejoindre la team{" "}
+        <span className="font-medium">React</span>. Pour bien entamer cette
+        nouvelle étape dans ma carrière, j'ai effectué une formation
+        <span className="font-medium"> React</span> chez o'Clock.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Curieux et rigoureux</span>, je possède un
+        <span className="italic">esprit analytique</span>. Ces qualités m'aident
+        dans la résolution des problèmes et la recherche de nouvelles solutions.
+        Ma motivation est au zénith, je suis impatient de rejoindre une équipe
+        de développeurs pour participer à la création de nouveaux projets et
+        relever ainsi de nouveaux défis.
       </p>
     </motion.section>
   );

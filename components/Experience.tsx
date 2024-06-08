@@ -12,11 +12,11 @@ import SectionHeading from "./SectionHeading";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref, inView } = useSectionInView("Experience", 0.1);
+  const { ref, inView } = useSectionInView("Expérience", 0.1);
   const { theme } = useTheme();
   return (
     <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>Mon expérience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
