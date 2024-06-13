@@ -71,19 +71,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "TrekBag",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "Zustand"],
-    imageUrl: trekbagImg,
-    link: "https://trekbag-portfolio.vercel.app/",
-  },
-  {
     title: "CorpComment",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Cette application permet aux utilisateurs de donner leur avis publiquement aux entreprises.",
+    tags: ["React", "Zustand"],
     imageUrl: corpcommentImg,
+    link: "https://corpcomment-nu.vercel.app/",
+  },
+  {
+    title: "TrekBag",
+    description:
+      "Cette application permet aux utilisateurs de préparer une check-list avant de partir en vacances et de ne rien oublier",
+    tags: ["React", "Zustand"],
+    imageUrl: trekbagImg,
     link: "https://trekbag-portfolio.vercel.app/",
   },
   {
@@ -117,4 +117,5 @@ export const skillsData = [
   "Tailwind",
   "Redux",
   "Framer Motion",
+  "Zustand",
 ] as const;
