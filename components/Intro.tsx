@@ -69,7 +69,7 @@ export default function Intro() {
         </span>
         Je créé des{" "}
         <span className="italic"> produits solides et évolutifs </span>
-        pour une excellente expérience utilisateur.
+        pour une expérience utilisateur fluide et intuitive.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -93,10 +93,10 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/CV2024.pdf"
           download
         >
-          Download CV{" "}
+          Télécharger CV{" "}
           <HiDownload className="opacity-60 group-hover:animate-bounce transition" />
         </a>
 

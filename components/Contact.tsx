@@ -32,7 +32,7 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Entrons en contact !</SectionHeading>
+      <SectionHeading>Contactez-moi !</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Vous pouvez m'adresser un message à l'aide du formulaire ci-dessous, ou
         me joindre directement par mail ou par téléphone.

@@ -21,29 +21,28 @@ export default function About() {
       }}
       id="about"
     >
-      <SectionHeading>Qui suis-je</SectionHeading>
+      <SectionHeading>Qui suis-je ?</SectionHeading>
       <p>
-        Après m'être découvert une passion pour la programmation, j’ai décidé de
-        me plonger dans ce nouveau monde et de me reconvertir. Après 5 mois
-        d’une formation très intensive{" "}
-        <span className="font-medium">full-stack web development</span> à{" "}
-        <span className="font-medium">o'Clock</span>, une école labellisée
-        Grande Ecole du Numérique et la réalisation de quelques premiers
-        projets, j'ai obtenu mon premier post dans une start-up innovante. Après
-        presque trois ans de travail en tant que
-        <span className="font-medium">développeur front Vue.js</span>, j'ai
-        décidé de changer de cap et rejoindre la team{" "}
-        <span className="font-medium">React</span>. Pour bien entamer cette
-        nouvelle étape dans ma carrière, j'ai effectué une nouvelle formation
-        <span className="font-medium"> React</span> chez o'Clock.
+        Polonais de naissance, diplômé de Sciences Humaines et installé à Paris
+        depuis 12 ans, je me suis découvert il y a 5 ans une passion pour la
+        programmation. Je me suis donné les moyens de me reconvertir en suivant
+        des programmes intensifs qui me permettent de maitriser aujourd'hui les
+        principaux langages et frameworks du{" "}
+        <span className="font-medium">développement front-end</span>.
       </p>
       <p>
-        <span className="italic">Curieux et rigoureux</span>, je possède un
-        <span className="italic"> esprit analytique</span>. Ces qualités
-        m'aident dans la résolution des problèmes et la recherche de nouvelles
-        solutions. Ma motivation est au zénith, je suis impatient de rejoindre
-        une équipe de développeurs pour participer à la création de nouveaux
-        projets et relever ainsi de nouveaux défis.
+        Mon baptême du feu a été au sein d'une start-up du numérique sur une
+        offre en constante évolution où mes responsabilités se sont accrues au
+        fur et à mesure du déploiement de l'outil Admin que j'avais développé.
+      </p>
+      <p>
+        Je crois être <span className="italic">curieux</span> et{" "}
+        <span className="italic">rigoureux</span>. Je possède également un bon{" "}
+        <span className="italic">esprit analytique</span>. Ces qualités m'aident
+        dans la résolution des problèmes et la recherche de nouvelles solutions.
+        Je suis impatient de rejoindre une équipe de développeurs pour
+        participer à la création de nouveaux projets et relever ainsi de
+        nouveaux défis.
       </p>
     </motion.section>
   );

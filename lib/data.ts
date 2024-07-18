@@ -42,7 +42,7 @@ export const experiencesData = [
     location: "Ecole O’clock, labellisée Grande Ecole du Numérique",
     description: "React, Redux, Next.js",
     icon: React.createElement(LuGraduationCap),
-    date: "28/03/2024 - 02/05/2024",
+    date: "mars 2024 - mai 2024",
   },
   {
     title: "Développeur web front-end | Vue.js",
@@ -75,7 +75,7 @@ export const projectsData = [
   {
     title: "Pet Daycare",
     description:
-      "Cette plateforme vous permettra de suivre facilement les animaux dont vous avez la garde",
+      "Cette plateforme vous permettra de suivre facilement les animaux que vous accueillez",
     tags: [
       "Next.js",
       "Typescript",
@@ -93,8 +93,7 @@ export const projectsData = [
   },
   {
     title: "Evento",
-    description:
-      "Ce site qui vous aidera à trouver des événements autour de vous",
+    description: "Ce site vous aidera à trouver des événements autour de vous",
     tags: [
       "Next.js",
       "Typescript",
@@ -111,7 +110,7 @@ export const projectsData = [
   {
     title: "CorpComment",
     description:
-      "Cette application permet aux utilisateurs de donner publiquement leurs avis aux entreprises",
+      "Cette application permet aux utilisateurs de donner publiquement leurs avis sur les entreprises",
     tags: ["Vite", "React", "Zustand", "Tailwind CSS"],
     imageUrl: corpcommentImg,
     link: "https://corpcomment-nu.vercel.app/",
