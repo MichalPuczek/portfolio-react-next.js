@@ -6,6 +6,8 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import trekbagImg from "@/public/trekbag.png";
+import petdaycareImg from "@/public/petdaycare.png";
+import eventoImg from "@/public/evento.png";
 
 export const links = [
   {
@@ -37,8 +39,8 @@ export const links = [
 export const experiencesData = [
   {
     title: "Formation Développeur Web | Spécialisation React. JS",
-    location: "Ecole O'clock",
-    description: "",
+    location: "Ecole O’clock, labellisée Grande Ecole du Numérique",
+    description: "React, Redux, Next.js",
     icon: React.createElement(LuGraduationCap),
     date: "28/03/2024 - 02/05/2024",
   },
@@ -46,16 +48,16 @@ export const experiencesData = [
     title: "Développeur web front-end | Vue.js",
     location: "Marmelade App",
     description:
-      "J'ai travaillé sur la création et la maintenance d'un outil interne pour ",
+      "J'ai travaillé sur la création et la maintenance d'un outil interne destiné au suivi des utilisateurs et à la gestion du conentu sur l'application mobile",
     icon: React.createElement(FaVuejs),
     date: "décembre 2020 - août 2023",
   },
   {
     title:
       "Formation Développeur fullstack JavaScript | Spécialisation React. JS",
-    location: "Ecole O'clock",
+    location: "Ecole O’clock, labellisée Grande Ecole du Numérique",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Après 6 mois d'études intensives, j'ai terminé la formation et décroché un premier emploi de développeur web",
     icon: React.createElement(LuGraduationCap),
     date: "mars 2020 - septembre 2020",
   },
@@ -63,7 +65,7 @@ export const experiencesData = [
     title: "Chef de projet amélioration continue",
     location: "SHOWROOMPRIVÉ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Analyse des besoins des clients et suivi du projet, élaborations des cahiers des charges, conception d'ateliers et animation de réunions",
     icon: React.createElement(CgWorkAlt),
     date: "mars 2019 - février 2020",
   },
@@ -71,36 +73,72 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Pet Daycare",
+    description:
+      "Cette plateforme vous permettra de suivre facilement les animaux dont vous avez la garde",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "React",
+      "Tailwind CSS",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe",
+      "Next-auth",
+      "Shadcn UI",
+      "ZOD",
+    ],
+    imageUrl: petdaycareImg,
+    link: "https://petdaycare.vercel.app/",
+  },
+  {
+    title: "Evento",
+    description:
+      "Ce site qui vous aidera à trouver des événements autour de vous",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "React",
+      "Tailwind CSS",
+      "Prisma",
+      "PostgreSQL",
+      "Framer motion",
+      "ZOD",
+    ],
+    imageUrl: eventoImg,
+    link: "https://evento-wine.vercel.app/",
+  },
+  {
     title: "CorpComment",
     description:
-      "Cette application permet aux utilisateurs de donner leur avis publiquement aux entreprises.",
-    tags: ["React", "Zustand"],
+      "Cette application permet aux utilisateurs de donner publiquement leurs avis aux entreprises",
+    tags: ["Vite", "React", "Zustand", "Tailwind CSS"],
     imageUrl: corpcommentImg,
     link: "https://corpcomment-nu.vercel.app/",
+  },
+  {
+    title: "rmtDev",
+    description:
+      "Ce site permet de trouver un emploi à distance pour les développeurs web",
+    tags: ["React", "TypeScript", "Vite", "CSS"],
+    imageUrl: rmtdevImg,
+    link: "https://rmtdev-ten.vercel.app/",
   },
   {
     title: "TrekBag",
     description:
       "Cette application permet aux utilisateurs de préparer une check-list avant de partir en vacances et de ne rien oublier",
-    tags: ["React", "Zustand"],
+    tags: ["React", "Zustand", "CSS"],
     imageUrl: trekbagImg,
-    link: "https://trekbag-portfolio.vercel.app/",
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
     link: "https://trekbag-portfolio.vercel.app/",
   },
   {
     title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Cette application permet une analyse rapide du texte : le nombre de mots, le nombre de caractères et les limites de publication sur les réseaux sociaux",
+    tags: ["React", "Vite", "CSS"],
     imageUrl: wordanalyticsImg,
-    link: "https://trekbag-portfolio.vercel.app/",
+    link: "https://wordanalytics-ruddy.vercel.app/",
   },
 ] as const;
 
@@ -114,8 +152,10 @@ export const skillsData = [
   "Vue.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "Tailwind CSS",
   "Redux",
   "Framer Motion",
   "Zustand",
+  "ZOD",
+  "Next-auth",
 ] as const;

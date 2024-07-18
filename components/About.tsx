@@ -34,16 +34,16 @@ export default function About() {
         <span className="font-medium">développeur front Vue.js</span>, j'ai
         décidé de changer de cap et rejoindre la team{" "}
         <span className="font-medium">React</span>. Pour bien entamer cette
-        nouvelle étape dans ma carrière, j'ai effectué une formation
+        nouvelle étape dans ma carrière, j'ai effectué une nouvelle formation
         <span className="font-medium"> React</span> chez o'Clock.
       </p>
       <p>
         <span className="italic">Curieux et rigoureux</span>, je possède un
-        <span className="italic">esprit analytique</span>. Ces qualités m'aident
-        dans la résolution des problèmes et la recherche de nouvelles solutions.
-        Ma motivation est au zénith, je suis impatient de rejoindre une équipe
-        de développeurs pour participer à la création de nouveaux projets et
-        relever ainsi de nouveaux défis.
+        <span className="italic"> esprit analytique</span>. Ces qualités
+        m'aident dans la résolution des problèmes et la recherche de nouvelles
+        solutions. Ma motivation est au zénith, je suis impatient de rejoindre
+        une équipe de développeurs pour participer à la création de nouveaux
+        projets et relever ainsi de nouveaux défis.
       </p>
     </motion.section>
   );
